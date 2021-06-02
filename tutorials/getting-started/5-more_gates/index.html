@@ -112,6 +112,7 @@ allowfullscreen></iframe>
 });
  
 window.onresize = function() {
+    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
     document.getElementById('myiFrame').style.height = 0 + 'px';
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
 }
