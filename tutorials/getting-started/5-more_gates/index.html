@@ -106,31 +106,10 @@ allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-c
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <script> 
-    function checkIframeLoaded() {
-    // Get a handle to the iframe element
-    var iframe = document.getElementById('myiFrame');
-    var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-
-    // Check if loading is complete
-    if (  iframeDoc.readyState  == 'complete' ) {
-        //iframe.contentWindow.alert("Hello");
-        iframe.contentWindow.onload = function(){
-            alert("I am loaded");
-        };
-        // The loading is complete, call the function we want executed once the iframe is loaded
-        afterLoading();
-        return;
-    } 
-
-    // If we are here, it is not loaded. Set things up so we check   the status again in 100 milliseconds
-    window.setTimeout(checkIframeLoaded, 100);
-}
-
-function afterLoading(){
-    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
-}
-
-afterLoading();
+    const iframe = document.getElementById("myiFrame");
+    iframe.addEventListener("load", function() {
+        document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
+});
     
 window.onresize = function() {
     document.getElementById('myiFrame').style.height = 0 + 'px';
