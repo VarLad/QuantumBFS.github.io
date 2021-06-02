@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://yaoquantum.org/benchmark/index.html</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/404/index.html</loc>
+    <loc>https://yaoquantum.org/research/index.html</loc>
     <lastmod>2021-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -20,43 +14,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://yaoquantum.org/research/index.html</loc>
+    <loc>https://yaoquantum.org/404/index.html</loc>
     <lastmod>2021-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/6-quantum_arithmetic/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/1-introduction/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/4-applications/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/index/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/8-deutsch/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/5-more_gates/</loc>
+    <loc>https://yaoquantum.org/benchmark/index.html</loc>
     <lastmod>2021-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -68,43 +32,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/assignment1/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/index/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/quick-start/1.julia_basics</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/2-gates_and_qubits/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/quick-start/2.yao_basics</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/3-yao_code/</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://yaoquantum.org/tutorials/getting-started/10-qram/</loc>
+    <loc>https://yaoquantum.org/index/</loc>
     <lastmod>2021-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -116,7 +44,79 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/10-qram/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/3-yao_code/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/quick-start/2.yao_basics</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/assignment1/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/2-gates_and_qubits/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/5-more_gates/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/6-quantum_arithmetic/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/quick-start/1.julia_basics</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://yaoquantum.org/tutorials/getting-started/7-grovers/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/8-deutsch/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/4-applications/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/index/</loc>
+    <lastmod>2021-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://yaoquantum.org/tutorials/getting-started/1-introduction/</loc>
     <lastmod>2021-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
