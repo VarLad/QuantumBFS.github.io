@@ -106,11 +106,13 @@ allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-c
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <script> 
+    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
     window.addEventListener("load", function() {
     window.dispatchEvent(new Event('resize'));
 });
  
 window.onresize = function() {
+    document.getElementById('myiFrame').style.height = 0 + 'px';
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
 }
 </script>	
