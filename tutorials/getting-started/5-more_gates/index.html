@@ -106,16 +106,18 @@ allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-c
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <script> 
+    $('#myIframe').on('load', function(){
+    //your code (will be called once iframe is done loading)
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
-    window.addEventListener("load", function() {
-    window.dispatchEvent(new Event('resize'));
-});
+    });
  
 window.onresize = function() {
-    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
     document.getElementById('myiFrame').style.height = 0 + 'px';
+}
+window.onresize = function() {
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
 }
+    
 </script>	
  
 <a class="smallscreenlink" href="/notebooks/getting-started/5-more_gates.html"></a></div>
