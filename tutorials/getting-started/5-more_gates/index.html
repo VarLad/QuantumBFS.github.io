@@ -109,8 +109,7 @@ allowfullscreen></iframe>
 
 function resizeIFrameToFitContent( iFrame ) {
 
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+        iFrame.style.height = iFrame.contentDocument.documentElement.offsetHeight + 'px';
 }
 
 window.addEventListener('DOMContentLoaded', function(e) {
