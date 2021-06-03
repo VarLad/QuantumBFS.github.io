@@ -116,7 +116,7 @@ allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-c
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <srcipt src="https://code.jquery.com/jquery-3.6.0.min.js">
-    $('#myiFrame').on('load', function(){
+    jQuery(function($) { // this does the trick and also makes sure jQuery is not conflicting with another library 
         document.getElementById('myiFrame').contentDocument.activeElement.getElementsByTagName('main')[0].getElementsByTagName('pluto-notebook')[0].setAttribute("data-iframe-height", "iFrameResizer");
   });
  </script>
