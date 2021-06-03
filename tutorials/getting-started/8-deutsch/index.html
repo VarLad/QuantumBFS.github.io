@@ -112,14 +112,13 @@
 src="/notebooks/getting-started/8-deutsch.html"
 class="plutopage"
 frameborder="0"
-onload="onload1()"
 allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-capture; document-domain; encrypted-media; execution-while-not-rendered; execution-while-out-of-viewport; fullscreen; geolocation; gyroscope; layout-animations; legacy-image-formats; magnetometer; microphone; midi; navigation-override; oversized-images; payment; picture-in-picture; publickey-credentials-get; sync-xhr; usb; wake-lock; screen-wake-lock; vr; web-share; xr-spatial-tracking"
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <srcipt>
-    function onload1(){
+    window.addEventListener('DOMContentLoaded', function() {
     document.getElementById('myiFrame').contentDocument.activeElement.getElementsByTagName('main')[0].getElementsByTagName('pluto-notebook')[0].setAttribute("data-iframe-height", "iFrameResizer");
-  }
+  });
  </script>
 <script> iFrameResize({ log: true, heightCalculationMethod: 'taggedElement' }, '#myiFrame') </script>	
  
