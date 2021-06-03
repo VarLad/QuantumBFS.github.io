@@ -105,19 +105,20 @@ frameborder="0"
 allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-capture; document-domain; encrypted-media; execution-while-not-rendered; execution-while-out-of-viewport; fullscreen; geolocation; gyroscope; layout-animations; legacy-image-formats; magnetometer; microphone; midi; navigation-override; oversized-images; payment; picture-in-picture; publickey-credentials-get; sync-xhr; usb; wake-lock; screen-wake-lock; vr; web-share; xr-spatial-tracking"
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
-<script> 
-    $('myiFrame').on('load', function(){
-        document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
+<script>
+$(function(){
+setInterval(oneSecondFunction, 100);
 });
-    
-window.addEventListener("load", function() {
-    window.dispatchEvent(new Event('resize'));
-});
- 
-window.onresize = function() {
+
+function oneSecondFunction() {
     document.getElementById('myiFrame').style.height = 0 + 'px';
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
 }
+ 
+/*window.onresize = function() {
+    document.getElementById('myiFrame').style.height = 0 + 'px';
+    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
+}*/
     
 </script>	
  
