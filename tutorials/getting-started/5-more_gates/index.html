@@ -70,7 +70,7 @@
 
             <div class="tutorial-container">
                 <div class="sidebar">
-<div class="container sidebar-sticky" id=>
+<div class="container sidebar-sticky">
   <nav class="sidebar-nav" style="opacity: 0.9">
     <div class="course-section">Quick Start</div>
 <a class="sidebar-nav-item " href="/tutorials/quick-start/0.setup/"><b>Setup Your Environment</b></a>
@@ -105,19 +105,7 @@ frameborder="0"
 allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; display-capture; document-domain; encrypted-media; execution-while-not-rendered; execution-while-out-of-viewport; fullscreen; geolocation; gyroscope; layout-animations; legacy-image-formats; magnetometer; microphone; midi; navigation-override; oversized-images; payment; picture-in-picture; publickey-credentials-get; sync-xhr; usb; wake-lock; screen-wake-lock; vr; web-share; xr-spatial-tracking"
 allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?ver=3.6.0'></script>
-<script>
-$($("myiFrame").contentWindow.window).resize(function(){
-    document.getElementById('myiFrame').style.height = 0 + 'px';
-    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
-});
- 
-/*window.onresize = function() {
-    document.getElementById('myiFrame').style.height = 0 + 'px';
-    document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
-}*/
-    
-</script>	
+<script> iFrameResize({ log: true }, '#myiFrame') </script>	
  
 <a class="smallscreenlink" href="/notebooks/getting-started/5-more_gates.html"></a></div>
 
