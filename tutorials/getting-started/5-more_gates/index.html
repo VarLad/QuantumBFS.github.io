@@ -107,7 +107,7 @@ allowfullscreen></iframe>
 <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.min.js"></script>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?ver=3.6.0'></script>
 <script>
-$($("#myiFrame").contentWindow.window).resize(function(){
+$($("myiFrame").contentWindow.window).resize(function(){
     document.getElementById('myiFrame').style.height = 0 + 'px';
     document.getElementById('myiFrame').style.height = document.getElementById('myiFrame').contentDocument.documentElement.offsetHeight + 'px';
 });
