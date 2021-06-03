@@ -71,5 +71,5 @@ window.pluto_statefile = "1-introduction.plutostate"
 
 <body class="loading no-MαθJax"></body>
 
-<script>document.body.getElementsByTagName("main")[0].getElementsByTagName("pluto-notebook")[0].setAttribute("data-iframe-height", "iFrameResizer");</script><script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.contentWindow.min.js"></script>
+<script>document.onreadystatechange = () => {if (document.readyState === complete) { document.body.getElementsByTagName("main")[0].getElementsByTagName("pluto-notebook")[0].setAttribute("data-iframe-height", "iFrameResizer"); }}; </script><script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.2.11/js/iframeResizer.contentWindow.min.js"></script>
 </html>
