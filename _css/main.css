@@ -8,6 +8,10 @@ body::-webkit-scrollbar {
     width: 0;
 }
 
+html {
+  scrollbar-width: none;
+}
+
 .main {
     min-height:100%;
     position:relative;
